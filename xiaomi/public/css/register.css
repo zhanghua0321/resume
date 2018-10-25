@@ -1,0 +1,134 @@
+body{
+    /*
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-image: url("../image/reg.gif");
+}
+
+/*水平线颜色宽度*/
+.my_border{
+   border-bottom: 3px solid black;
+   border-radius: 20%;
+   size:10rem;
+}
+
+.my_table{	
+	width: 1000px;
+	border-radius:5px ;
+	background-color:rgba(255,255,255,0.2);
+}
+.my_re_font1{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.my_re_font2{
+	color: red;
+	font-size: 15px;
+}
+.my_re_font3{
+	color: #a09e9d;
+	font-size: 12px;
+	height: 50px;
+}
+.my_re_font3:hover{
+	color: orangered;
+}
+.my_re_font4{
+	color: gray;
+	font-size: 14px;
+	width: 230px;
+	height: 40px;
+	padding-left:10px ;	
+}
+.my_re_font5{
+	color: black;
+	font-size: 17px;
+	line-height: 40px;
+}
+.my_re_hr{
+	border-bottom: 2px solid black;
+	padding: 0;
+	margin: 0;
+}
+.my_re_but{
+	background: black;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	padding-left: 45px;
+	padding-right: 45px;
+	border: 0;
+}
+.my_re_but:hover{
+	background: orangered;
+}
+.vali_info{
+	display:none;
+}
+.vali_info_after{
+	line-height: 40px;
+	color: coral;
+}
+.txt_focus{
+	color: gray;
+	font-size: 14px;
+	width: 230px;
+	height: 40px;
+	padding-left:10px;
+	border: 1px solid greenyellow;
+	margin-right: 15px;
+}
+.my_span_hidden{
+	display: none;
+}
+.vali_success,.vali_fail{
+	background-repeat:no-repeat;
+  	background-position:left center;
+	display:block;
+}
+
+.vali_success{
+    background-image:url("../image/ok.png");
+	padding-left:220px;
+	padding-top: 40px;
+	margin-left: 20px;
+	width:0px;
+	height:20px;
+	overflow:hidden;
+	line-height: 40px;
+}
+.vali_success_after{
+	width: 230px;
+	height: 40px;
+	border: 1px solid green;
+	padding-left: 20px;
+	background-color: lightgoldenrodyellow;
+}
+.vali_fail{
+    background-image:url("../image/err.png");
+    color:Red;
+    padding-left:30px;
+    font-size: 13px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.vali_fail_after{
+	width: 230px;
+	height: 40px;
+	border: 1px solid red;
+	padding-left: 20px;
+	background-color: pink;
+	
+}
+.my_re_agree{
+	
+	width: 20px;
+	height: 20px;
+	margin-left: 140px;
+	padding: 10px;
+}
+.my_re_fonta{
+	color: red;
+}

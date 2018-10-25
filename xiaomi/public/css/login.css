@@ -1,0 +1,78 @@
+.my_lo_bg{
+	
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+ background-image: url("../image/log.jpg");
+}
+.my_lo_table{
+	border-radius: 10px;
+	background-color:rgba(123,234,255,0.2);
+	width: 600px;
+}
+.my_lo_font1{
+	color: white;
+	font-size:20px;
+}
+.my_lo_font2{
+	color: white;
+	font-size:13px;
+	line-height: 30px;
+}
+.my_lo_font3{
+	color: red;
+	font-size:13px;
+	line-height: 30px;
+}
+.my_lo_font3:hover{
+	text-decoration: none;
+	color: orangered;
+}
+.my_lo_hr{
+	border-bottom: 2px solid black;
+	padding: 0;
+	margin: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.vali_info{
+	display:none;
+}
+.my_lo_font4{
+	color: white;
+	font-size: 18px;
+	line-height: 35px;
+}
+.my_lo_font5{
+	color: gray;
+	font-size: 15px;
+	width: 200px;
+	height: 35px;
+	border: 0;
+	padding-left: 10px;
+}
+.my_lo_font6{
+	color: white;
+	font-size: 12px;
+	line-height: 43px;
+	padding: 10px;
+}
+.my_lo_font6:hover{
+	color: red;
+}
+.my_lo_font7{
+	background: black;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 6px;
+	padding-left: 60px;
+	padding-right: 60px;
+	border: 0;
+	border-radius: 5px;
+	margin: 30px;
+	margin-left: 100px;
+}
+.my_lo_font7:hover{
+	background: red;
+}

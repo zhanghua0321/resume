@@ -1,0 +1,39 @@
+body{
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+/*搜索框和里边的文字*/
+.my_he_sesfont{
+	color: darkgrey;
+	font-size: 14px;
+	padding-left: 10px;
+	width: 300px;
+	height: 34px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.my_he_font1{
+	font-size: 16px;
+	color: black;
+}
+.my_he_font1:hover{
+	text-decoration: none;
+	color: red;
+}
+.my_he_font1:visited{
+	text-decoration: none;
+	color: gray;
+}
+.my_he_font2{
+	color: black;
+	font-size: 18px;
+}
+.my_he_font2:hover{
+	color: red;
+	text-decoration: none;
+}
+.header2{
+	margin-left:-20px;
+}

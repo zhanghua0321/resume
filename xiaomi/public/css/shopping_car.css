@@ -1,0 +1,62 @@
+.my_font1{
+	color: gray;
+	font-size: 15px;
+}
+
+.my_font2{
+	font-weight: bold;
+}
+
+.my_font3{
+	font-size: 10px;
+	color: gray;
+}
+.my_font3:hover{
+	text-decoration: none;
+	color: orangered;
+}
+.my_hr{
+	border-bottom: 2px solid orangered;
+	width: 100%;
+}
+
+.my_quanxuan{
+	width: 20px;
+	height: 20px;
+}
+
+.my_font4{
+	font-size: 18px;
+}
+
+.my_table{
+	border-bottom: 1px solid black;
+}
+
+.my_font5{
+	font-size: 19px;
+}
+
+.my_font6{
+	font-size: 17px;
+}
+
+.my_btn{
+	width: 30px;
+	height: 30px;
+}
+
+.my_font6{
+	font-size: 17px;
+	color: orangered;
+}
+.my_jeisuanBtn{
+	background: orangered;
+	color: white;
+	font-size: 18px;
+	padding: 10px;
+	border: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+

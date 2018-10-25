@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/shopping_car.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>我的购物车</title>
+</head>
+<body>
+    <div class="container">
+    	<!--第一行-->
+    	<div class="row p-3">
+    		<!--logo图片-->
+    		<div class="col-lg-1 col-md-1">
+    			<img src="image/logo_foot.png" alt="" />
+    		</div>
+    		<!--大的字体-->
+    		<div class="col-lg-2 col-md-2 text-center mt-2">
+    			<h3 class="my_font2">我的购物车</h3>  			
+    		</div>
+    		<!--小的字体-->
+    		<div class="col-lg-8 col-md-8 mt-3 my_font1">
+    			<p>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</p>
+    		</div>
+    		<!--注册登录-->
+    		<div class="col-lg-1 col-md-1 mt-3">
+    			<ul class="d-flex list-unstyled">
+					<li class="mr-1"><a class="my_font3" href="./login.html" target="_blank">登录</a></li>
+					<li class="mr-1">|</li>
+					<li><a class="my_font3" href="./register.html" target="_blank">注册</a></li>	
+				</ul>
+    		</div>
+    	</div>
+    	
+    	<div class="row">  		
+    		<hr class="my_hr mt-0">   	
+    	</div>
+    	
+    	<div class="row">
+    		<div class="col-md-12">
+    			<table id="data" class="table m-0">
+    				<thead>
+    				<tr class="col-md-12 ">
+    					<td class="text-center d-flex">
+    						<input type="checkbox" name="quanxuan" value="quanxuan" class="my_quanxuan mt-3"/>
+    						<p class="ml-3 my_font4 mt-2">全选</p>
+    					</td>
+    					<td>
+    						<p class="ml-3 my_font4 mt-2">商品名称</p>
+    					<td>
+    						<p class="ml-3 my_font4 mt-2">单价</p>
+    					</td>
+    					<td>
+    						<p class="ml-3 my_font4 mt-2 ml-4">数量</p>
+    					</td>
+    					<td>
+    						<p class="ml-3 my_font4 mt-2">小计</p>
+    					</td>
+    					<td>
+    						<p class="ml-3 my_font4 mt-2">操作</p>
+    					</td>
+    				</tr>
+    				</thead>
+    				<tbody>
+    				<tr class="col-md-12">
+    					<td>
+    						<input type="checkbox" class="my_quanxuan mt-4"/>
+    					</td>
+    					<td class="d-flex">
+    						<img src="./image/gwc_xiaomi6.jpg">
+    						<p class="my_font5 mt-4">小米6全网通6GB内存+64GB 亮黑色</p>
+    					</td>
+    					<td>
+    						<p class="my_font6 mt-4">￥2499.00</p>
+    					</td>
+    					<td>
+    						<button class="my_btn mt-4">-</button>
+					        <span class="ml-2 mr-2">1</span>
+					        <button class="my_btn">+</button>
+    					</td>
+    					<td>
+    						<p class="my_font6 mt-4">￥2499.00</p>
+    					</td>
+    					<td>
+    						<p class="mt-4 ml-4">X</p>
+    					</td>
+    				</tr>
+    				<tr class="col-md-12">
+    					<td>
+    						<input type="checkbox" class="my_quanxuan mt-4"/>
+    					</td>
+    					<td class="d-flex">
+    						<img src="./image/gwc_xiaomi6.jpg">
+    					
+    						<p class="my_font5 mt-4">小米6全网通6GB内存+64GB 亮黑色</p>
+    					</td>
+    					<td>
+    						<p class="my_font6 mt-4">￥2499.00</p>
+    					</td>
+    					<td>
+    						<button class="my_btn mt-4">-</button>
+					        <span class="ml-2 mr-2">1</span>
+					        <button class="my_btn">+</button>
+    					</td>
+    					<td>
+    						<p class="my_font6 mt-4">￥2499.00</p>
+    					</td>
+    					<td>
+    						<p class="mt-4 ml-4">X</p>
+    					</td>
+    				</tr>
+    				</tbody>
+    				<tfoot>
+    				<tr class="col-md-12">
+    					<td class="d-flex">
+    						<p class="mr-2 my_font1 mt-3">继续购物&nbsp;&nbsp;&nbsp;&nbsp;|</p>
+    					</td>
+    					<td>
+    						<p class="mr-2 my_font1 mt-3">共&nbsp;&nbsp;2&nbsp;&nbsp;件商品，已选择&nbsp;&nbsp;2&nbsp;&nbsp;件</p>
+    					</td>
+    					<td></td>   					
+    					<td>
+    						<p class="my_font6 mt-3">合计（不含运费）：</p>
+    					</td>
+    					<td class="mt-3">
+    						<p class="my_font6 mt-3">￥4998.00</p>
+    					</td>
+    					<td>
+    						<input type="button" name="" id="" value="去结算" class="my_jeisuanBtn" /> 		
+    					</td>
+    				</tr>
+    				</tfoot>
+    			</table>
+    		</div>
+    	</div>
+    </div>
+    <footer class="text-center mt-5">			
+		<div>小米商城|MIUI|米聊|多看书城|小米路由器|视频电话|小米天猫店|小米淘宝直营店|小米网盟|小米移动|隐私政策|Select Region</div>
+		<div>©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</div> 
+		<div>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</div>
+	</footer>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/shopping_car.js"></script>
+	<script src="js/jquery-1.11.3.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.my_footer_font1{
+	color: black;
+	font-size: 13px;
+}
+.my_font_color{
+	color: black;
+}
+.my_font_color:hover{
+	color: red;
+	text-decoration: none;
+}
+
+.my_font_style{
+	font-size: 19px;
+}

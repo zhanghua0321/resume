@@ -1,0 +1,7 @@
+/*整个页面的背景色*/
+/*一级容器定宽居中*/
+body .container{
+  width:1250px;
+  min-width:1000px;
+  margin:0 auto;
+}
